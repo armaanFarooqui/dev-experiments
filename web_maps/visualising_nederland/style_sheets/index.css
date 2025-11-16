@@ -15,6 +15,10 @@ body{
     font-weight: bold;
 }
 
+#instructions{
+    margin-top: 5vw;
+}
+
 .map_title{
     font-size: 5.3vw; /* heading 2 (= 2/3 the size of heading 1 */
     width: 100vw;
@@ -28,7 +32,9 @@ body{
     border: 0.5vw solid black;
 }
 
+/*
 #country_title{
     margin-top: 10vw;
 }
+*/
 

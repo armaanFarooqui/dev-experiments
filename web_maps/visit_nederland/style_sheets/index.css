@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font: 2.6vw sans-serif; /* body text (= 1/3 the size of heading 1) */
+    overflow-x: hidden;
+    padding-bottom: 1vw;
+}
+
+#logo{
+    margin-top: 1vw;
+    font: 8vw serif; /* acts as heading 1 */
+    font-weight: bold;
+    width: 100vw;
+    text-align: center;
+}
+
+#instructions{
+    margin-top: 5vw;
+}
+
+#map_title{
+    font-size: 5.3vw; /* heading 2 (= 2/3 the size of heading 1) */
+    font-weight: bold;
+}
+
+#map_box{
+    width: 60vw;
+    height: 40vw;
+    border: 0.5vw solid black;
+}
