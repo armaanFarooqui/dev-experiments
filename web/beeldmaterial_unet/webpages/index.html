@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../style_sheets/index.css">
+    </head>
+    <body>
+        <h1 id="logo">UNet for Farmland Detection: Experimenting with Beeldmaterial Imagery</h1>
+
+        <!-- Slide 1-->
+        <div class="slide">
+            <h2 class="slide_title">1. Introduction</h2>
+            <div class="slide_contents">
+                <div class="picture_area">
+                    <img class="slide_picture" src="../qgis_files/outputs/study_area_map.png">
+                    <div class="picture_caption">Fig 1. The study area map.</div>
+                </div>
+                <div class="slide_text">
+                    <ul>
+                        <li>The Netherlands faces high nitrogen pollution from intensive farming.​</li>
+                        <li>Simpler approaches like NDVI thresholding would clump all vegetation together.</li>
+                        <li>This project used Deep Learning to better differentiate farmland from other vegetation.</li>
+                        <li>Study area: Enschede, the Netherlands.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 2-->
+        <div class="slide">
+            <h2 class="slide_title">2. Beeldmaterial Image Set​​</h2>
+            <div class="slide_contents">
+                <div class="picture_area">
+                    <img class="slide_picture" src="../data/one.png">
+                    <div class="picture_caption">Fig 2. The chosen Beeldmaterial RGB tiles.</div>
+                </div>
+                <div class="slide_text">
+                    <ul>
+                        <li>25cm Beeldmaterial RGB and CIR orthophotos were chosen for this project.​ </li>
+                        <li>These tiles were resampled to 5m resolution to reduce computational time.</li>
+                        <li>These tiles cover the whole of Enschede.​</li>
+                        <li>Acquisition date: Summer 2024.​​</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3-->
+        <div class="slide">
+            <h2 class="slide_title">3. NDVI Tiles Generation​​​</h2>
+            <div class="slide_contents">
+                <div class="picture_area">
+                    <img class="slide_picture" src="../data/eleven.png">
+                    <div class="picture_caption">Fig 3. The generated NDVI tiles.</div>
+                </div>
+                <div class="slide_text">
+                    <ul>
+                        <li>The CIR orthophotos were used for generating NDVI tiles. ​​​</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4-->
+        <div class="slide">
+            <h2 class="slide_title">4. Training/ Testing Split​​​​</h2>
+            <div class="slide_contents">
+                <div class="picture_area">
+                    <img class="slide_picture" src="../data/two.png">
+                    <div class="picture_caption">Fig 4. The selected training and testing tiles.</div>
+                </div>
+                <div class="slide_text">
+                    <ul>
+                        <li>The RGB and NDVI image sets were split into training and testing tiles.​ ​​​</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
