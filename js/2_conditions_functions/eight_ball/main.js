@@ -1,4 +1,4 @@
-// User name (empty by default)
+// User name
 let userName = 'Armaan';
 
 // Greet user if name exists
