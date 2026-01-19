@@ -1,0 +1,4 @@
+curl -s -X PUT http://localhost:3000/user/1 \
+  -H "Content-Type: application/json" \
+  -d '{"username":"newName","password":"newPass"}' | jq
+
